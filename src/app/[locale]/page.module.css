@@ -4,7 +4,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 86vh;
+}
+
+/* For tablets */
+@media (max-width: 1024px) {
+  .main {
+    padding: 1rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .main {
+    padding: 0rem;
+    padding-top: 0.5rem;
+  }
 }
 
 .description {
